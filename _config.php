@@ -1,3 +1,3 @@
 <?php
-    $site_name = "Test";
+    $site_name = "Test Site";
 ?>
