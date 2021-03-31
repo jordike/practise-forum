@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d6d6d6;
+}
+
+#page-container {
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    width: 80%;
+    min-width: 400px;
+    background-color: #ebebeb;
+    border: 1px #bebebe solid;
+}

@@ -1,5 +1,6 @@
-        <footer>
-            <p>&copy; Jordi Keijzers 2021</p>
-        </footer>
+            <footer>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </footer>
+        </div>
     </body>
 </html>

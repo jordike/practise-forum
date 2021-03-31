@@ -2,12 +2,15 @@
 
 <html>
     <head>
+        <link rel="stylesheet" href="css/style.css">
+
         <title><?php echo $site_name; ?></title>
     </head>
     <body>
-        <header>
-            <h1><?php echo $site_name; ?></h1>
-            <nav>
-                <a href="index.php">Home</a>
-            </nav>
-        </header>
+        <div id="page-container">
+            <header>
+                <h1><?php echo $site_name; ?></h1>
+                <nav>
+                    <a href="index.php">Home</a>
+                </nav>
+            </header>
