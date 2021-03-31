@@ -1,4 +1,15 @@
 header {
-    background-color: #ccc;
-    padding: 0;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #dfdfdf;
+    display: flex;
+}
+
+header h1 {
+    color: #5e5e5e;
+}
+
+nav {
+    margin-left: 50px;
+    padding: 5px;
 }

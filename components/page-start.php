@@ -3,6 +3,8 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/footer.css">
 
         <title><?php echo $site_name; ?></title>
     </head>
