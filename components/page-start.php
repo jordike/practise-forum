@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="css/header.css">
         <link rel="stylesheet" href="css/footer.css">
 
-        <title><?php echo $site_name; ?></title>
+        <title><?php echo "$site_name - $current_page"; ?></title>
     </head>
     <body>
         <div id="page-container">
