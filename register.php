@@ -9,17 +9,19 @@
                 <form action="#" method="POST">
                     <div class="form-input">
                         <label for="username">Username:</label>
-                        <input type="text" name="username" id="username">
+                        <input type="text" name="username" id="username" required>
                     </div>
                     <div class="form-input">
                         <label for="email">Email:</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="email" id="email" required>
                     </div>
                     <div class="form-input">
                         <label for="password">Password:</label>
-                        <input type="password" name="password" id="password">
+                        <input type="password" name="password" id="password" required>
                     </div>
-                    <input type="submit" name="register" value="Register">
+                    <div class="form-input">
+                        <input type="submit" name="register" value="Register">
+                    </div>
                 </form>
 
 <?php require_once("components/page-end.php"); ?>

@@ -1,0 +1,31 @@
+form {
+    margin: auto;
+    width: 60%;
+}
+
+.form-input {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+}
+
+.form-input label {
+    display: block;
+    width: 120px;
+}
+
+.form-input input {
+    padding: 8px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    margin: auto;
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    background-color: #ccc;
+}
