@@ -40,6 +40,7 @@ a:hover {
 
 h2, h3, h4, h5, h6 {
     padding: 6px;
+    padding-left: 20px;
     border-bottom: 1px #d8d8d8 solid;
     margin-bottom: 15px;
 }
