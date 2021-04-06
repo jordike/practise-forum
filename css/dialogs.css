@@ -1,0 +1,21 @@
+.dialog {
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 40%;
+    text-align: center;
+}
+
+.error-message {
+    color: #912828;
+    background-color: #ffa7a7a1;
+    border: 2px #bd5f5f solid;
+}
+
+.success-message {
+    color: #42aa23;
+    background-color: #8de48d88;
+    border: 2px #22ff22 solid;
+}

@@ -3,6 +3,7 @@ header {
     margin-bottom: 10px;
     background-color: #dfdfdf;
     display: flex;
+    justify-content: space-between;
 }
 
 header h1 {
@@ -12,4 +13,16 @@ header h1 {
 nav {
     margin-left: 50px;
     padding: 5px;
+}
+
+.nav-align-right {
+    margin-left: 100px;
+}
+
+#nav-username {
+    color: #a8a8a8;
+}
+
+.nav-item {
+    margin-left: 10px;
 }
