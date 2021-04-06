@@ -10,6 +10,9 @@
         $_username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_STRING);
 
         if (!username_exists($_username)) {
+            // TODO: Limiet toevoegen aan wat wel of niet
+            //       mag als wachtwoord en gebruikersnaam.
+
             $query = $db->prepare("INSERT INTO accounts (email, username, password) VALUES (:email, :username, :password)");
 
             $email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_STRING);
