@@ -20,6 +20,7 @@
             $query->bindParam("username", $username);
             $query->bindParam("password", $password);
 
+            // TODO: betere fout afhandeling.
             if ($query->execute()) {
                 echo "aangemaakt";
             } else {
