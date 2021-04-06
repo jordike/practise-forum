@@ -1,6 +1,6 @@
             </div>
             <footer>
-                <p>Lorem ipsum dolor sit amet consectetur.</p>
+                <p>&copy; Jordi Keijzers, 2021</p>
             </footer>
         </div>
     </body>
